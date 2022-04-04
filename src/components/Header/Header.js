@@ -14,6 +14,7 @@ const Header = () => {
                             <CustomLink to="/">Home</CustomLink>
                             <CustomLink to="/reviews">Reviews</CustomLink>
                             <CustomLink to="/dashBoard">DashBoard</CustomLink>
+                            <CustomLink to="/blogs">Blogs</CustomLink>
                             <CustomLink to="/about">About</CustomLink>
                         </Nav>
                     </Navbar.Collapse>
