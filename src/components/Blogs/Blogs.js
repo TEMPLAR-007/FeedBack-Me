@@ -26,21 +26,28 @@ const Blogs = () => {
                 <Accordion.Item eventKey="3">
                     <Accordion.Header>Inline vs Inline-Block vs Block</Accordion.Header>
                     <Accordion.Body className='text-start'>
-                        <h3>Inline</h3>
-                        <p>The display property specifics the display behavior of an element. It’s a must know for controlling the layout of an element.Inline displays the element inline or on the same line. In other words, inline elements do NOT start on a new line and only takes up as much width as its content. So, if you try to set any width and height, it will have NO effects.</p>
+                        Inline
+                        <br />
+                        The display property specifics the display behavior of an element. It’s a must know for controlling the layout of an element.Inline displays the element inline or on the same line. In other words, inline elements do NOT start on a new line and only takes up as much width as its content. So, if you try to set any width and height, it will have NO effects.
+                        <br />
+                        <br />
+                        inline-block
+                        <br />
+                        Displays an element as an inline-level block container. You CAN set height and width values.Alright, let's move on to inline-block. It’s essentially the same thing as inline, except that you can set height and width values.
+                        <br />
+                        <br />
+                        block
+                        <br />
+                        block elements starts on a NEW line and takes up the full width available. So that means block elements will occupy the entire width of its parent element.
+                        <br />
+                        <br />
+                        Here are a few elements that have a default block property:
+                        <li>div</li>
+                        <li>h1</li>
+                        <li>p</li>
+                        <li>li</li>
+                        <li>section</li>
 
-                        <h3>inline-block</h3>
-                        <p>Displays an element as an inline-level block container. You CAN set height and width values.Alright, let's move on to inline-block. It’s essentially the same thing as inline, except that you can set height and width values.</p>
-
-                        <h3>block</h3>
-                        <p>block elements starts on a NEW line and takes up the full width available. So that means block elements will occupy the entire width of its parent element.
-                            <h5 className='mt-3'>Here are a few elements that have a default block property:</h5>
-                            <li>div</li>
-                            <li>h1</li>
-                            <li>p</li>
-                            <li>li</li>
-                            <li>section</li>
-                        </p>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

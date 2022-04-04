@@ -40,10 +40,13 @@ const Home = () => {
                     <div className="container">
                         <div className="row">
                             {
-                                reviews.map(review => <ReviewSection
-                                    key={review.id}
-                                    review={review}
-                                ></ReviewSection>)
+                                reviews.map(review => {
+                                    if (review.rating > 4.5)
+                                        return <ReviewSection
+                                            key={review.id}
+                                            review={review}
+                                        ></ReviewSection>
+                                })
                             }
                             <Link to='/reviews'>
                                 <button type="button" className="btn btn-warning btn-outline-dark border-0 fw-bold px-5">
