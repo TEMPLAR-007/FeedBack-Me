@@ -8,15 +8,15 @@ const Home = () => {
 
     return (
         <div>
-            <div className='main-product'>
+            <div className='main-product mt-5'>
                 <div className='container'>
                     <div className='row gap-5'>
                         <div className='col-md-6'>
                             <div className='d-grid gap-3'>
                                 <div className='mt-5'>
-                                    <h1 className='text-warning'>Hero10</h1>
-                                    <h1 className='text-start text-danger mt-5'>Award-Winning Footage.
-                                        Unreal Savings</h1>
+                                    <h1 className='text-warning fs-1 fw-bolder font-monospace'>Hero<span className='text-danger'>10</span></h1>
+                                    <h2 className='text-start text-danger mt-5'>Award-Winning Footage.
+                                        Unreal Savings</h2>
                                     <h6 className='text-start'>HERO10 Black + Accessories Bundle
                                         Includes 1-year GoPro Subscription¹</h6>
                                     <h5 className='text-start'>Price: $399</h5>
@@ -36,7 +36,7 @@ const Home = () => {
             </div>
             <div className='review-section mt-5 mb-5'>
                 <div>
-                    <h1>Customer Reviews(3)</h1>
+                    <h1>Happy Customer</h1>
                     <div className="container">
                         <div className="row">
                             {
