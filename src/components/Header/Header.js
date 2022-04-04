@@ -13,6 +13,7 @@ const Header = () => {
                         <Nav className="gap-3">
                             <CustomLink to="/">Home</CustomLink>
                             <CustomLink to="/reviews">Reviews</CustomLink>
+                            <CustomLink to="/dashBoard">DashBoard</CustomLink>
                             <CustomLink to="/about">About</CustomLink>
                         </Nav>
                     </Navbar.Collapse>
