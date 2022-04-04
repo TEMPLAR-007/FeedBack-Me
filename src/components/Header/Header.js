@@ -11,7 +11,7 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse className='justify-content-end ' id="basic-navbar-nav">
                         <Nav className="gap-3">
-                            <CustomLink to="/home">Home</CustomLink>
+                            <CustomLink to="/">Home</CustomLink>
                             <CustomLink to="/reviews">Reviews</CustomLink>
                             <CustomLink to="/about">About</CustomLink>
                         </Nav>

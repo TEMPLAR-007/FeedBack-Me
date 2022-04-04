@@ -1,0 +1,44 @@
+[
+    {
+        "img": "https://i.ibb.co/HdV4C5H/player-1.png",
+        "id": 1,
+        "name": "Jimi",
+        "reviews": "GoPro's Hero10 Black action cam delivers excellent, stabilized 5K video and ups still quality, but not everyone should spend more when the Hero8 Black is still available for less.",
+        "rating": 4.5
+    },
+    {
+        "img": "https://i.ibb.co/6vjzH8V/player-2.png",
+        "id": 2,
+        "name": "Daimen",
+        "reviews": "The 360-degree GoPro Max camera promises an easier, more streamlined workflow than last year's Fusion, but has more niche appeal than the less expensive Hero8 Black.",
+        "rating": 4
+    },
+    {
+        "img": "https://i.ibb.co/DMGkyLx/player-3.png",
+        "id": 3,
+        "name": "Blowver",
+        "reviews": "The GoPro Hero10 Black is the company's best action camera to date, offering class-leading stabilization and video quality in a rugged, waterproof body.",
+        "rating": 4.7
+    },
+    {
+        "img": "https://i.ibb.co/K2pQzvp/player-4.png",
+        "id": 4,
+        "name": "Rajin",
+        "reviews": "The GoPro Hero10 Black is the company's best action camera to date, offering class-leading stabilization and video quality in a rugged, waterproof body.",
+        "rating": 4.5
+    },
+    {
+        "img": "https://i.ibb.co/CQD4wn8/player-5.png",
+        "id": 5,
+        "name": "Ferode",
+        "reviews": "The shrunken-down GoPro Session may not offer any performance gains over its big brothers, but it's still quite good and more fun to use than other action cams.",
+        "rating": 5
+    },
+    {
+        "img": "https://i.ibb.co/jyNsxb6/player-6.png",
+        "id": 6,
+        "name": "Gomzee",
+        "reviews": "If you're looking for a small action camera that can capture video at 4K, the GoPro Hero10 Black is the one to get and it's fun, Go and grab one.",
+        "rating": 4.5
+    }
+]
